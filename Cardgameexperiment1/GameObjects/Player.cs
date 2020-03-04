@@ -16,6 +16,11 @@ namespace Cardgameexperiment1.GameObjects
             this.Name = Name;
         }
 
+        public Player()
+        {
+
+        }
+
         public Queue<Card> Deal(Queue<Card> cards)
         {
             //adding two decks as an example. Not very dynamic, could be done better.

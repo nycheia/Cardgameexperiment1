@@ -23,9 +23,16 @@ namespace Cardgameexperiment1.GameObjects
 
         public bool EndCondition()
         {
+
             //Can do a switch or an if else statement
             //e.g. turncount > 50 return true;
+            if(TurnCounter > 100)
+            {
+                return true;
+            }
             return false;
         }
+
+        //Make a play method here
     }
 }

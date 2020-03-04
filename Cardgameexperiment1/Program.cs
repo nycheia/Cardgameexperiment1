@@ -1,5 +1,5 @@
 ﻿using System;
-
+using Cardgameexperiment1.GameObjects;
 namespace Cardgameexperiment1
 {
     /*
@@ -13,6 +13,11 @@ namespace Cardgameexperiment1
             //new Game, add players (change in Game.cs)
             //Make a play in Game.cs
             //While end condition is not true, play the game
+            Game game = new Game();
+            while (!game.EndCondition())
+            {
+                //play the turn
+            }
 
         }
     }
